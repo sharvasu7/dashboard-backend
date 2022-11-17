@@ -16,7 +16,7 @@
     "sequelize": "^6.25.6"
   },
   "scripts": {
-    "start": "nodemon -r dotenv/config index.ts"
+    "start": "node -r dotenv/config index.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
